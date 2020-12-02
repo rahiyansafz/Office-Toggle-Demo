@@ -7,7 +7,12 @@ import { Component, VERSION } from "@angular/core";
 })
 export class AppComponent {
   LightOn = false;
-  OnLightOn() {
+  TextOn = false;
+  OnLightOn(): void {
     this.LightOn = !this.LightOn;
+  }
+
+  OnTextOn(): void {
+    this.TextOn = !this.TextOn;
   }
 }
