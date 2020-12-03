@@ -3,7 +3,7 @@ p {
   text-align: center;
   margin: 100px 0px;
 }
-span {
+p span {
   font-size: 30px;
   color: red;
   cursor: pointer;
