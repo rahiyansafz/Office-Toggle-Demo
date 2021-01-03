@@ -6,6 +6,7 @@ import { Component, VERSION } from "@angular/core";
   styleUrls: ["./app.component.css"]
 })
 export class AppComponent {
+  withEgg = false;
   LightOn = false;
   TextOn = false;
   OnLightOn(): void {
@@ -14,5 +15,9 @@ export class AppComponent {
 
   OnTextOn(): void {
     this.TextOn = !this.TextOn;
+  }
+
+  myEgg(): void {
+    this.withEgg = !this.withEgg;
   }
 }

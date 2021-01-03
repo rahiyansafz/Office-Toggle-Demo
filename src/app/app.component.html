@@ -7,3 +7,7 @@
 	The Light Is
 	<span (mouseover)="OnTextOn()" *ngIf="TextOn">On!</span><span (mouseover)="OnTextOn()" *ngIf="!TextOn">Off!</span>
 </p>
+
+<p [ngStyle]="{'background-color': withEgg === true ? 'yellow' : 'white'}" id="change" (click)="myEgg()">
+	ABCD
+</p>
